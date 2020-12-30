@@ -1,0 +1,87 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 30.11.2017 18:21:45
+
+newmtl Bodymat
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Body_Diffuse.png
+	map_Kd D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Body_Diffuse.png
+	map_Ks D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Body_Specular.png
+	map_d D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Body_Opacity.png
+	map_bump -bm 0.0000 man1_Body_Normal_Normal_Bump.tga
+
+newmtl Bottommat
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Bottom_Diffuse.png
+	map_Kd D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Bottom_Diffuse.png
+	map_Ks D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Bottom_Specular.png
+	map_d D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Bottom_Opacity.png
+	map_bump -bm 0.0000 man1_Bottom_Normal_Normal_Bump.tga
+
+newmtl Topmat
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Top_Diffuse.png
+	map_Kd D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Top_Diffuse.png
+	map_Ks D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Top_Specular.png
+	map_d D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Top_Opacity.png
+	map_bump -bm 0.0000 man1_Top_Normal_Normal_Bump.tga
+
+newmtl Shoesmat
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Shoes_Diffuse.png
+	map_Kd D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Shoes_Diffuse.png
+	map_Ks D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Shoes_Specular.png
+	map_d D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Shoes_Opacity.png
+	map_bump -bm 0.0000 man1_Shoes_Normal_Normal_Bump.tga
+
+newmtl Hairmat
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Hair_Diffuse.png
+	map_Kd D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Hair_Diffuse.png
+	map_Ks D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Hair_Specular.png
+	map_d D:\VirtualSpeech\App\Unity\VS_google_cardboard_v31\Assets\avatars\male_high_res\man1.fbm\man1_Hair_Opacity.png
+	map_bump -bm 0.0000 man1_Hair_Normal_Normal_Bump.tga

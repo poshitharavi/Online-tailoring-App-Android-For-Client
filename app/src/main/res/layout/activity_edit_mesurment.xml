@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditMesurmentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The body measurement (CM) "
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Height :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/heightTxt"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/heightPredictTxt"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Height prediction variation \n 181.56cm - 174.4cm" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Chest :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/chestTxt"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/chestPredictTxt"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Chest prediction variation \n 140.8cm - 115.2cm" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Waist :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/waistTxt"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/waistPredictTxt"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Waist prediction variation \n 115.56cm - 100.44cm" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Hip :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/hipTxt"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/hipPredictTxt"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Hip prediction variation \n 99.64cm - 88.36cm"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Shoulder Width :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/shoulderTxt"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/shoulderPredictTxt"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Shoulder prediction variation \n 60.76cm - 37.24cm"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Leg length :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/legTxt"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/legLengthPredictTxt"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Leg length prediction variation \n 81.36cm - 62.64cm" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/mesurmentSubmitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
